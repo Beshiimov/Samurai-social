@@ -1,0 +1,21 @@
+.weather {
+    height: 100%;
+    padding: .7rem 3rem 0;
+    position: relative;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather .temp {
+    font-style: italic;
+    position: absolute;
+    top: .7rem;
+    right: .2rem;
+    font-size: .8rem;
+}
+
+.weather .temp::after {
+    content: '°C';
+}

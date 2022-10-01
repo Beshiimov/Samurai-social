@@ -1,0 +1,58 @@
+.header {
+  background-color: #343434;
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  padding: 0 .5rem;
+  justify-content: space-between;
+}
+
+.header img {
+  padding: 0 5px;
+  height: 50px;
+  width: 50px;
+}
+
+a {
+  color: #fff;
+  transition: all .3s ease;
+}
+
+a:hover {
+  filter: brightness(90%);
+}
+
+a:active {
+  filter: brightness(80%);
+}
+
+.loginBtn {
+  position: relative;
+}
+
+.loginBtn:hover > .dropDown {
+  display: block;
+}
+
+.dropDown {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  display: none;
+}
+
+.dropDown button {
+  transition: all .3s ease-in-out;
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.dropDown button:hover {
+  background-color: rgba(230, 230, 230, 0.8);
+}
+
+.dropDown button:active {
+  background-color: rgba(177, 177, 177, 0.6);
+}

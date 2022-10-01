@@ -1,0 +1,36 @@
+.profileInfo {
+  padding: 0 10px;
+  background-color: rgba(66, 66, 66, 0.91);
+  flex-direction: row;
+}
+
+.profileHeader {
+  padding: 10px 0;
+  border-bottom: 2px solid #262626;
+  display: flex;
+  align-items: center;
+}
+
+.profileHeader img {
+  border-radius: 12px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.workStatus {
+  padding: 15px 0;
+}
+
+h3 {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.workStatus span {
+  margin: 0 .3rem;
+}

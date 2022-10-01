@@ -1,0 +1,29 @@
+.nav {
+  height: 600px;
+  grid-area: nav;
+  border-radius: 0 7px 7px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.nav ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.navlink a {
+  margin: 5px 10px;
+  color: #e3e3e3;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navlink a:hover {
+  color: #fff;
+}
+
+.navlink a[class="active"] {
+  border-bottom: 2px solid #fff;
+}

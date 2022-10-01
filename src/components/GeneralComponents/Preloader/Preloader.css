@@ -1,0 +1,29 @@
+.preloader span {
+    margin: 0 0.3rem;
+    display: inline-block;
+    height: 100%;
+    width: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    animation: preloader 2s linear infinite;
+}
+
+.preloader span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.preloader span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes preloader {
+    0%, 50%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+}
